@@ -11,6 +11,17 @@ This repository contains two clean space deliminted data tables ready for futher
 - `tidy_data.txt`, which contains the data summarized by subject and activity with the mean calculated for each measure.
 - `run_analysis.R`, the R script that was used to create the data sets.
 
+The following files are also in the repository and come from the zip source:
+
+- `activity_labels.txt`, labels for activities
+- `features.txt`, labels for various feature measurements
+- `test/subject.txt`, test subject IDs
+- `test/y_test.txt`, test activity codes
+- `test/X_test.txt`, test feature measurements
+- `train/subject.txt`, train subject IDs
+- `train/y_train.txt`, train activity codes
+- `train/X_train.txt`, train feature measurements
+
 Both the raw data and detailed explanations of all the measures can be found by downloading this [zip file](
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)  At a very high level the data is collected for 30 individuals as they performed various activities:
 - WALKING
