@@ -28,7 +28,7 @@ The two data sets are created in general with the following steps.  Review the `
 - install dplyr package
 - download and unzip the [zip file](
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-- copy `run_analysis.R` to the extracted data location and source `run_analysis.R` and run the function run_analysis which will:
+- copy `run_analysis.R` to the extracted data location and source `run_analysis.R` and run the function run_analysis() which will:
   - Read activity and measurement (feature) titles
   - Load and combine TEST subject data (mean and std measures only)
   - Load and combine TRAIN subject data (mean and std measures only)
