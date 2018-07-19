@@ -22,3 +22,17 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The subjects are broken down into groups *TEST* and *TRAIN*.
 
+## Data Set Creation
+
+The two data sets are created in general with the following steps.  Review the `CodeBook.md` for more details. 
+- install dplyr package
+- download and unzip the [zip file](
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+- copy `run_analysis.R` to the extracted data location and source `run_analysis.R` and run the function run_analysis which will:
+  - Read activity and measurement (feature) titles
+  - Load and combine TEST subject data (mean and std measures only)
+  - Load and combine TRAIN subject data (mean and std measures only)
+  - Combine both TEST and TRAIN data into one large data set (`full_data.txt`)
+  - Group the large data set by subject and activity and calculate the mean for all measures (`tidy_data.txt`)
+  
+  
